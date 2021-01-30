@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp5.0</TargetFramework>
@@ -17,8 +17,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="IdentityServer4" />
-    <PackageReference Include="IdentityServer4.Storage" />
+    
+    <PackageReference Include="IdentityServerIQ" Version="5.0.0" />
+    
+    <PackageReference Include="IdentityServerIQ.Storage" Version="5.0.0" />
     
     <PackageReference Include="Microsoft.NET.Test.Sdk" />
     <PackageReference Include="xunit" />

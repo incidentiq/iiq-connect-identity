@@ -39,9 +39,14 @@
   </ItemGroup>
     
   <ItemGroup>
-    <PackageReference Include="IdentityServer4" />
+    
+    <PackageReference Include="IdentityServerIQ" Version="5.0.1" />
     
     <PackageReference Include="Microsoft.SourceLink.GitHub" PrivateAssets="All" />
+  </ItemGroup>
+    
+  <ItemGroup>
+    <PackageReference Update="MinVer" Version="2.4.0" />
   </ItemGroup>
 
 </Project>
